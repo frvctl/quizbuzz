@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F22AC98167C226400494449 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F22AC97167C226400494449 /* Cocoa.framework */; };
+		0F22ACA2167C226400494449 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0F22ACA0167C226400494449 /* InfoPlist.strings */; };
+		0F22ACA4167C226400494449 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F22ACA3167C226400494449 /* main.m */; };
+		0F22ACA8167C226400494449 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0F22ACA6167C226400494449 /* Credits.rtf */; };
+		0F22ACAB167C226400494449 /* BuzzAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F22ACAA167C226400494449 /* BuzzAppDelegate.m */; };
+		0F22ACAE167C226500494449 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F22ACAC167C226500494449 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F22AC93167C226400494449 /* quizbuzz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = quizbuzz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F22AC97167C226400494449 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		0F22AC9A167C226400494449 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		0F22AC9B167C226400494449 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0F22AC9C167C226400494449 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0F22AC9F167C226400494449 /* quizbuzz-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "quizbuzz-Info.plist"; sourceTree = "<group>"; };
+		0F22ACA1167C226400494449 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0F22ACA3167C226400494449 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0F22ACA5167C226400494449 /* quizbuzz-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "quizbuzz-Prefix.pch"; sourceTree = "<group>"; };
+		0F22ACA7167C226400494449 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		0F22ACA9167C226400494449 /* BuzzAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuzzAppDelegate.h; sourceTree = "<group>"; };
+		0F22ACAA167C226400494449 /* BuzzAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuzzAppDelegate.m; sourceTree = "<group>"; };
+		0F22ACAD167C226500494449 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F22AC90167C226400494449 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F22AC98167C226400494449 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F22AC88167C226400494449 = {
+			isa = PBXGroup;
+			children = (
+				0F22AC9D167C226400494449 /* quizbuzz */,
+				0F22AC96167C226400494449 /* Frameworks */,
+				0F22AC94167C226400494449 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F22AC94167C226400494449 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F22AC93167C226400494449 /* quizbuzz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F22AC96167C226400494449 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F22AC97167C226400494449 /* Cocoa.framework */,
+				0F22AC99167C226400494449 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0F22AC99167C226400494449 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F22AC9A167C226400494449 /* AppKit.framework */,
+				0F22AC9B167C226400494449 /* CoreData.framework */,
+				0F22AC9C167C226400494449 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		0F22AC9D167C226400494449 /* quizbuzz */ = {
+			isa = PBXGroup;
+			children = (
+				0F22ACA9167C226400494449 /* BuzzAppDelegate.h */,
+				0F22ACAA167C226400494449 /* BuzzAppDelegate.m */,
+				0F22ACAC167C226500494449 /* MainMenu.xib */,
+				0F22AC9E167C226400494449 /* Supporting Files */,
+			);
+			path = quizbuzz;
+			sourceTree = "<group>";
+		};
+		0F22AC9E167C226400494449 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F22AC9F167C226400494449 /* quizbuzz-Info.plist */,
+				0F22ACA0167C226400494449 /* InfoPlist.strings */,
+				0F22ACA3167C226400494449 /* main.m */,
+				0F22ACA5167C226400494449 /* quizbuzz-Prefix.pch */,
+				0F22ACA6167C226400494449 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F22AC92167C226400494449 /* quizbuzz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F22ACB1167C226500494449 /* Build configuration list for PBXNativeTarget "quizbuzz" */;
+			buildPhases = (
+				0F22AC8F167C226400494449 /* Sources */,
+				0F22AC90167C226400494449 /* Frameworks */,
+				0F22AC91167C226400494449 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = quizbuzz;
+			productName = quizbuzz;
+			productReference = 0F22AC93167C226400494449 /* quizbuzz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F22AC8A167C226400494449 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Buzz;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = polarcuke;
+			};
+			buildConfigurationList = 0F22AC8D167C226400494449 /* Build configuration list for PBXProject "quizbuzz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0F22AC88167C226400494449;
+			productRefGroup = 0F22AC94167C226400494449 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F22AC92167C226400494449 /* quizbuzz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F22AC91167C226400494449 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F22ACA2167C226400494449 /* InfoPlist.strings in Resources */,
+				0F22ACA8167C226400494449 /* Credits.rtf in Resources */,
+				0F22ACAE167C226500494449 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F22AC8F167C226400494449 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F22ACA4167C226400494449 /* main.m in Sources */,
+				0F22ACAB167C226400494449 /* BuzzAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0F22ACA0167C226400494449 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F22ACA1167C226400494449 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0F22ACA6167C226400494449 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F22ACA7167C226400494449 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		0F22ACAC167C226500494449 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F22ACAD167C226500494449 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F22ACAF167C226500494449 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0F22ACB0167C226500494449 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0F22ACB2167C226500494449 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "quizbuzz/quizbuzz-Prefix.pch";
+				INFOPLIST_FILE = "quizbuzz/quizbuzz-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0F22ACB3167C226500494449 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "quizbuzz/quizbuzz-Prefix.pch";
+				INFOPLIST_FILE = "quizbuzz/quizbuzz-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F22AC8D167C226400494449 /* Build configuration list for PBXProject "quizbuzz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F22ACAF167C226500494449 /* Debug */,
+				0F22ACB0167C226500494449 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F22ACB1167C226500494449 /* Build configuration list for PBXNativeTarget "quizbuzz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F22ACB2167C226500494449 /* Debug */,
+				0F22ACB3167C226500494449 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F22AC8A167C226400494449 /* Project object */;
+}
