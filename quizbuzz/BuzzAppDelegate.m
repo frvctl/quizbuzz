@@ -31,6 +31,13 @@
     [self performSelectorInBackground:@selector(listenToTheBuzzer) withObject:nil];
 }
 
+- (IBAction)testLights:(id)sender {
+    for (int x = 0; x < 5; x++) {
+        buffer[x+1] = 0xff;
+        res = hid_write(handle, buffer, 8);
+    }
+}
+
 - (void)createBuzzerConnection {
     hid_init ();
 	while (handle  ==  NULL) {

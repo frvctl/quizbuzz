@@ -35,6 +35,7 @@
 - (IBAction)resetBuzzerButton:(id)sender;
 - (IBAction)stopReading:(id)sender;
 - (IBAction)listenForEventsEngage:(id)sender;
+- (IBAction)testLights:(id)sender;
  
 - (void)listenToTheBuzzer;
 - (void)lightTheBuzz:(int)buzzerToLight event:(bool)isAEvent;
