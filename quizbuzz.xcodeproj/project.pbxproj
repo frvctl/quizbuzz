@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F0D1B7616993C0800A3C9FF /* HandleDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0D1B7516993C0800A3C9FF /* HandleDevice.m */; };
+		0F0D1B791699409B00A3C9FF /* MainBuzzView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0D1B781699409B00A3C9FF /* MainBuzzView.m */; };
 		0F22AC98167C226400494449 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F22AC97167C226400494449 /* Cocoa.framework */; };
 		0F22ACA2167C226400494449 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0F22ACA0167C226400494449 /* InfoPlist.strings */; };
 		0F22ACA4167C226400494449 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F22ACA3167C226400494449 /* main.m */; };
@@ -20,6 +22,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F0D1B7416993C0800A3C9FF /* HandleDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HandleDevice.h; sourceTree = "<group>"; };
+		0F0D1B7516993C0800A3C9FF /* HandleDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HandleDevice.m; sourceTree = "<group>"; };
+		0F0D1B771699409B00A3C9FF /* MainBuzzView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainBuzzView.h; sourceTree = "<group>"; };
+		0F0D1B781699409B00A3C9FF /* MainBuzzView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainBuzzView.m; sourceTree = "<group>"; };
 		0F22AC93167C226400494449 /* quizbuzz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = quizbuzz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F22AC97167C226400494449 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		0F22AC9A167C226400494449 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -30,15 +36,15 @@
 		0F22ACA3167C226400494449 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0F22ACA5167C226400494449 /* quizbuzz-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "quizbuzz-Prefix.pch"; sourceTree = "<group>"; };
 		0F22ACA7167C226400494449 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		0F22ACA9167C226400494449 /* BuzzAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuzzAppDelegate.h; sourceTree = "<group>"; };
-		0F22ACAA167C226400494449 /* BuzzAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuzzAppDelegate.m; sourceTree = "<group>"; };
+		0F22ACA9167C226400494449 /* BuzzAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BuzzAppDelegate.h; path = quizbuzz/BuzzAppDelegate.h; sourceTree = "<group>"; };
+		0F22ACAA167C226400494449 /* BuzzAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BuzzAppDelegate.m; path = quizbuzz/BuzzAppDelegate.m; sourceTree = "<group>"; };
 		0F22ACAD167C226500494449 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		0F22ACB4167C229500494449 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		0F22ACB6167C22BC00494449 /* hid.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = hid.c; path = "../../../../Downloads/hidapi-0.7.0 2/mac/hid.c"; sourceTree = "<group>"; };
 		0F22ACB8167C22DA00494449 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
 		0F22ACBA167C231100494449 /* hidapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = hidapi.h; path = "../../../../Downloads/hidapi-0.7.0 2/hidapi/hidapi.h"; sourceTree = "<group>"; };
-		0FC97EBD1682689A00289AC6 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
-		0FC97EBE1682689A00289AC6 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		0FC97EBD1682689A00289AC6 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Player.h; path = quizbuzz/Player.h; sourceTree = "<group>"; };
+		0FC97EBE1682689A00289AC6 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Player.m; path = quizbuzz/Player.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,12 +61,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F0D1B6D1699364500A3C9FF /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				0F22AC9E167C226400494449 /* Supporting Files */,
+				0F22ACA9167C226400494449 /* BuzzAppDelegate.h */,
+				0F22ACAA167C226400494449 /* BuzzAppDelegate.m */,
+				0F0D1B72169936E200A3C9FF /* Controllers */,
+				0F0D1B71169936D100A3C9FF /* Models */,
+				0F0D1B701699367C00A3C9FF /* Views */,
+				0F0D1B6F1699366700A3C9FF /* Device */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		0F0D1B6F1699366700A3C9FF /* Device */ = {
+			isa = PBXGroup;
+			children = (
+				0F0D1B7416993C0800A3C9FF /* HandleDevice.h */,
+				0F0D1B7516993C0800A3C9FF /* HandleDevice.m */,
+			);
+			name = Device;
+			sourceTree = "<group>";
+		};
+		0F0D1B701699367C00A3C9FF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0F0D1B771699409B00A3C9FF /* MainBuzzView.h */,
+				0F0D1B781699409B00A3C9FF /* MainBuzzView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		0F0D1B71169936D100A3C9FF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0FC97EBE1682689A00289AC6 /* Player.m */,
+				0FC97EBD1682689A00289AC6 /* Player.h */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		0F0D1B72169936E200A3C9FF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		0F22AC88167C226400494449 = {
 			isa = PBXGroup;
 			children = (
+				0F0D1B6D1699364500A3C9FF /* Application */,
 				0F22ACB8167C22DA00494449 /* IOKit.framework */,
 				0F22ACB4167C229500494449 /* CoreFoundation.framework */,
-				0F22AC9D167C226400494449 /* quizbuzz */,
 				0F22AC96167C226400494449 /* Frameworks */,
 				0F22AC94167C226400494449 /* Products */,
 			);
@@ -93,24 +147,12 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		0F22AC9D167C226400494449 /* quizbuzz */ = {
-			isa = PBXGroup;
-			children = (
-				0F22ACBA167C231100494449 /* hidapi.h */,
-				0F22ACB6167C22BC00494449 /* hid.c */,
-				0F22ACA9167C226400494449 /* BuzzAppDelegate.h */,
-				0F22ACAA167C226400494449 /* BuzzAppDelegate.m */,
-				0F22ACAC167C226500494449 /* MainMenu.xib */,
-				0F22AC9E167C226400494449 /* Supporting Files */,
-				0FC97EBD1682689A00289AC6 /* Player.h */,
-				0FC97EBE1682689A00289AC6 /* Player.m */,
-			);
-			path = quizbuzz;
-			sourceTree = "<group>";
-		};
 		0F22AC9E167C226400494449 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0F22ACAC167C226500494449 /* MainMenu.xib */,
+				0F22ACB6167C22BC00494449 /* hid.c */,
+				0F22ACBA167C231100494449 /* hidapi.h */,
 				0F22AC9F167C226400494449 /* quizbuzz-Info.plist */,
 				0F22ACA0167C226400494449 /* InfoPlist.strings */,
 				0F22ACA3167C226400494449 /* main.m */,
@@ -118,6 +160,7 @@
 				0F22ACA6167C226400494449 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
+			path = quizbuzz;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,6 +232,8 @@
 				0F22ACAB167C226400494449 /* BuzzAppDelegate.m in Sources */,
 				0F22ACB7167C22BC00494449 /* hid.c in Sources */,
 				0FC97EBF1682689A00289AC6 /* Player.m in Sources */,
+				0F0D1B7616993C0800A3C9FF /* HandleDevice.m in Sources */,
+				0F0D1B791699409B00A3C9FF /* MainBuzzView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

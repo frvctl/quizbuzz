@@ -8,13 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Player : NSObject {
-    NSString *userName;
-    NSString *buzzerAssignment;
-    
-    int score;
-    
-    NSMutableArray *infoArray;
-}
+@interface Player : NSObject
+
+@property NSString *userName;
+@property NSString *buzzerAssignment;
+@property int score;
+@property NSMutableArray *infoArray;
+
 
 @end
